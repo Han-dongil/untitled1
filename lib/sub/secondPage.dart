@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import '../test.dart';
 
-class SecondApp extends StatelessWidget{
+
+class SecondApp extends StatefulWidget{
   @override
   State<StatefulWidget> createState() => _SecondApp();
   late final List<Test> list;
   SecondApp({required Key? key, required this.list}) : super(key:key);
 
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
-  }
+  // @override
+  // Widget build(BuildContext context) {
+  //   // TODO: implement build
+  //   //throw UnimplementedError();
+  // }
 
 }
 
